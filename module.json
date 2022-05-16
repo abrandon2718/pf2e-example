@@ -58,9 +58,9 @@
       "private": false
     }
 ],
-  "url": "https://github.com/YourName/PF2e-Example",
-  "manifest": "https://raw.githubusercontent.com/YourName/PF2e-Example/master/module.json",
-  "download": "https://github.com/YourName/PF2e-Example/archive/refs/heads/main.zip"
+  "url": "https://github.com/abrandon2718/pf2e-example",
+  "manifest": "https://raw.githubusercontent.com/abrandon2718/pf2e-example/master/module.json",
+  "download": "https://github.com/abrandon2718/pf2e-example/archive/refs/heads/main.zip"
 
 
 }
