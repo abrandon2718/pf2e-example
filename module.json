@@ -1,0 +1,66 @@
+{
+  "name": "pf2e-example",
+  "title": "PF2e Example",
+  "description": "An example module.",
+  "author": "Aaron",
+  "version": "1.0",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
+  "packs": [],
+  "system": [
+    "pf2e"
+  ],
+  "minimumSystemVersion": "2.16",
+  "packs": [
+    {
+      "label": "Example - Bestiary",
+      "type": "Actor",
+      "name": "example-bestiary",
+      "path": "./packs/example-bestiary.db",
+      "system": "pf2e",
+      "package": "pf2e-example",
+      "private": false
+    },
+    {
+      "label": "Example - Feats",
+      "type": "Item",
+      "name": "example-feats",
+      "path": "./packs/example-feats.db",
+      "system": "pf2e",
+      "package": "pf2e-example",
+      "private": false
+    },
+    {
+      "label": "Example - Spells",
+      "type": "Item",
+      "name": "example-spells",
+      "path": "./packs/example-spells.db",
+      "system": "pf2e",
+      "package": "pf2e-example",
+      "private": false
+    },
+    {
+      "label": "Example - Maps",
+      "type": "Scene",
+      "name": "example-maps",
+      "path": "./packs/example-maps.db",
+      "system": "pf2e",
+      "package": "pf2e-example",
+      "private": false
+    },
+    {
+      "label": "Example - Wrath of the Mitflits",
+      "type": "JournalEntry",
+      "name": "example-wrath-of-the-mitflits",
+      "path": "./packs/example-wrath-of-the-mitflits.db",
+      "system": "pf2e",
+      "package": "pf2e-example",
+      "private": false
+    }
+],
+  "url": "https://github.com/YourName/PF2e-Example",
+  "manifest": "https://raw.githubusercontent.com/YourName/PF2e-Example/master/module.json",
+  "download": "https://github.com/YourName/PF2e-Example/archive/refs/heads/main.zip"
+
+
+}
